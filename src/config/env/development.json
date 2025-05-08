@@ -1,0 +1,19 @@
+{
+    "port":3000,
+    "db_config":{
+        "driver":"mongodb",
+        "host":"127.0.0.1",
+        "port":"27017",
+        "username":"",
+        "password":"",
+        "dbName":"pageCoreDb",
+        "authSource":"admin",
+        "options" : {
+            "autoIndex": false, 
+            "maxPoolSize": 10, 
+            "serverSelectionTimeoutMS": 1000,
+            "socketTimeoutMS": 45000, 
+            "family": 4 
+          }
+    }
+}
